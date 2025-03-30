@@ -85,8 +85,8 @@
  - Biến (variable):
    * dùng để lưu trữ giá trị, có thể thay đổi giá trị được
    * để khai báo biến, ta có 2 từ khoá: **var** và **let**. Ta có thể khai báo và gán giá trị ngay hoặc khai báo và gán giá trị sau.
-     * *var <ten_bien> = <gia tri>;*
-     * *let <ten_bien> = <gia tri>;*
+     * *var <ten_bien> = <gia_tri>;*
+     * *let <ten_bien> = <gia_tri>;*
      * trong đó:<ten_bien>
        * bắt đầu bằng ký tự chữ, hoặc gạch dưới, hoặc $
        * không chứa dấu cách
@@ -97,8 +97,8 @@
    * ta có thể sử dụng biến ngay trong hàm console.log: *console.log(ten_bien)*
    * để thay đổi giá trị của biến, ta thực hiện gán lại giá trị của biến sang giá trị khác mà không cần từ khoá *var/let*
 - Hằng số (constant):
-  * khai báo: *const <name> = <value>*
-  * sử dụng: *console.log(name)*
+  * khai báo: *const <ten_hang_so> = <gia_tri>;*
+  * sử dụng: *console.log(ten_hang_so)*
 - Khi nào dùng *var/let*, khi nào dùng *const*?
   * **var/let**: khi biến sẽ gán lại
   * **const**: khi biến không gán lại
