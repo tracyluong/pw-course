@@ -11,7 +11,7 @@
       *git restore --staged <file>*
     * Đưa từ vùng repository về working directory (uncommit):
 
-      *git reset HEAD|~1* (undo 1 commit)
+      *git reset HEAD~1* (undo 1 commit)
 
   * Branching model
     * Dùng branch để tạo ra **một vùng làm việc mới**, không ảnh hưởng tới vùng làm việc đã ổn định
