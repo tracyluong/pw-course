@@ -1,12 +1,5 @@
 // 1. Hàm multiply
 function multiply(a, b) {
-    // Khai báo biến để lưu kết quả phép nhân
-    let resultMultiply = 0;
-    
-    // Thực hiện phép nhân và gán vào biến resultMultiply
-    resultMultiply = a * b;
-    
-    // Trả về kết quả nhân
     return a * b;
 }
 console.log("Kết quả nhân là:", multiply(3, 5));
