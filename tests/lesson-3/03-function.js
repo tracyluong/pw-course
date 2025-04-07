@@ -7,7 +7,7 @@ function multiply(a, b) {
     resultMultiply = a * b;
     
     // Trả về kết quả nhân
-    return resultMultiply;
+    return a * b;
 }
 console.log("Kết quả nhân là:", multiply(3, 5));
 console.log("Kết quả nhân là:", multiply(6, 2));
