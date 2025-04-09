@@ -7,7 +7,7 @@ const words = ["apple", "banana", "cherry", "date"];
 console.log("Kiểm tra scores có giá trị nào > 80 không?", scores.some(score => score > 80));
 
 // 5.2 Kiểm tra ages có giá trị nào < 18 không.
-console.log("SKiểm tra ages có giá trị nào < 18 không?", ages.some(age => age < 18));
+console.log("Kiểm tra ages có giá trị nào < 18 không?", ages.some(age => age < 18));
 
 // 5.3 Kiểm tra words có từ nào dài > 5 không.
-console.log("SKiểm tra words có từ nào dài > 5 không?", words.some(word => word.length > 5));
+console.log("Kiểm tra words có từ nào dài > 5 không?", words.some(word => word.length > 5));

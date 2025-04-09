@@ -26,4 +26,4 @@ const doubled = [];
 numbers.forEach(num => {
   doubled.push(num * 2);
 });
-console.log("Mảng mới từ numbers, mỗi phần tử nhân đôi là:", doubled);
+console.log("Mảng mới từ numbers với mỗi phần tử nhân đôi là:", doubled);

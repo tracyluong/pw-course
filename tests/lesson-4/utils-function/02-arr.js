@@ -19,7 +19,7 @@ let namesUnshift = ["Alice", "Bob", "Charlie"];
 numbersUnshift.unshift(0);
 namesUnshift.unshift("David");
 console.log("Sau khi thêm 0 vào đầu numbers", numbersUnshift);
-console.log("Sau khi thêm David vào đầu names", namesUnshift);
+console.log("Sau khi thêm 'David' vào đầu names", namesUnshift);
 
 // 4. Shift: Loại bỏ phần tử đầu của numbers = [1, 2, 3, 4].
 let numbersShift = [1, 2, 3, 4];
