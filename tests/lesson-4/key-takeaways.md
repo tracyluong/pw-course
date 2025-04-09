@@ -608,6 +608,7 @@
    console.log(hasEven); // Kết quả: true
 
 6. **every()**
+
    Khái niệm: Phương thức *every()* **kiểm tra xem tất cả các phần tử trong mảng có thỏa mãn điều kiện được chỉ định** trong hàm callback hay không. Trả về true nếu tất cả đều thỏa mãn, ngược lại trả về false.
 
    Ví dụ:
@@ -619,6 +620,7 @@
    console.log(allEven); // Kết quả: true
 
 7. **push()**
+
    Khái niệm: Phương thức *push()* **thêm một hoặc nhiều phần tử vào cuối mảng** và trả về độ dài mới của mảng.
 
    Ví dụ:
@@ -630,6 +632,7 @@
    console.log(numbers); // Kết quả: [1, 2, 3, 4, 5]
 
 8. **shift()**
+
    Khái niệm: Phương thức *shift()* **loại bỏ phần tử đầu tiên** của mảng và **trả về phần tử bị loại bỏ**. Phương thức này thay đổi độ dài của mảng.
 
    Ví dụ:
