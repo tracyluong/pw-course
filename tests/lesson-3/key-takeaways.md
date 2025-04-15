@@ -76,7 +76,7 @@
 
         `let/const/var <tên_mảng> = [<danh sách các giá trị, cách nhau bởi dấu phẩy ",">]`
       * Thao tác trên mảng:
-        - Lấy độ dài mảng: dùng thuộc tính `length`*` của array.
+        - Lấy độ dài mảng: dùng thuộc tính `length` của array.
         - Truy xuất phần tử của mạng: dùng cú pháp `arr[< index>]`, trong đó index là số thứ tự, tính từ 0.
         - Thêm phần tử vào mảng: 
           - Thêm vào đầu mảng: sử dụng hàm `unshift()`
