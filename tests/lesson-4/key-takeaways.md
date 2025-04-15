@@ -96,7 +96,7 @@
 
         5 !== ‘5’  : true
 
-       ‘5’ !== ‘5’ : false
+        ‘5’ !== ‘5’ : false
 
 # Vòng lặp nâng cao 
 
@@ -146,7 +146,7 @@
         };
 
        for (const property in student) {
-       console.log(property);
+           console.log(property);
        }
 
        // Kết quả:
@@ -164,7 +164,6 @@
 
     ```
     for (const property in student) {
-
        console.log(`Property: ${property}, value: ${student[property]}`);
 
       }
@@ -187,7 +186,7 @@
       const arr = [1, 3, 5, 2];
 
       for (const item of arr) {
-      console.log (item);
+         console.log (item);
       }
    
       // Kết quả:
@@ -211,7 +210,7 @@
       const str = "Hello";
 
       for (const char of str) {
-      console.log(char);
+         console.log(char);
       }
    
       // Kết quả:
@@ -228,9 +227,9 @@
   Dùng để thoát khỏi vòng lặp hoặc mệnh đề `switch`. Thường kết hợp với một điều kiện để dừng vòng lặp sớm hơn khi đã thoả mãn điều kiện, hoặc
   
        for(let i = 0; i < 100; i++) {
-       // some code ...
-       break;
-       //....
+         // some code ...
+         break;
+         //....
        }
 
   Giải thích: trong ví dụ trên, `break` sẽ thoát khỏi vòng lặp ngay khi gặp `break;`
@@ -241,7 +240,7 @@
       let sum = 0;
       for (let i = 0; i < 100; i++) {
       if (sum + i > 20) {
-      break; // Thoát khỏi vòng lặp nếu cộng i vào sum sẽ vượt quá 20
+        break; // Thoát khỏi vòng lặp nếu cộng i vào sum sẽ vượt quá 20
       }
       sum += i;
       }
@@ -266,7 +265,7 @@
       
       for (let i = 0; i < 10; i++) {
       if (i % 2 === 0) { // Nếu i là số chẵn
-      continue; // Bỏ qua các lệnh còn lại trong vòng lặp hiện tại và chuyển sang lần lặp tiếp theo
+        continue; // Bỏ qua các lệnh còn lại trong vòng lặp hiện tại và chuyển sang lần lặp tiếp theo
       }
       console.log(i); // Chỉ in ra các số lẻ
       }
