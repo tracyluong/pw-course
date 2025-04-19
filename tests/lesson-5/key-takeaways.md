@@ -48,7 +48,7 @@ Thẻ tự đóng:
   * **Playwright selector**
 * Tìm hiểu Xpath selector:
 
-  * Xpath = XML Path
+  * XPath = XML Path
 
   * Có hai loại gồm:
 
@@ -56,7 +56,8 @@ Thẻ tự đóng:
     
       Ví dụ: `/html/body/div/input[1]`
     - **Tương đối**: tìm dựa vào đặc tính - bắt đầu bằng `//`
-    Ví dụ: `//input[@id='email']`
+
+      Ví dụ: `//input[@id='email']`
 
     Lưu ý: Nên dùng loại Xpath tương đối
 
@@ -105,3 +106,10 @@ Thẻ tự đóng:
   - Chọn một option theo attribute value: `await page.locator("//select[@id='country']").selectOption({ value: "uk" });`
   - Chọn một option theo label:`await page.locator("//select[@id='country']").selectOption({ label: "Canada" });`
 - Upload file: `await page.locator("//input[@id='profile']").setInputFiles("<path của file muốn upload>");});`
+- Hover: `await page.locator("<xpath here>").hover();`
+- Text: `//div[text()=’This is a text’]`
+- Contains: `//div[contains(text(), ‘Tôi là Alex’)]`
+- Confirmation dialog: 
+  ```
+     page.on('dialog', dialog => dialog.accept());
+     await page.getByRole('button').click();
