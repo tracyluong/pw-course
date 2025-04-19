@@ -430,7 +430,7 @@
    console.log(numbers); // Kết quả: [1, 2, 3, 4, 5]
 8. **shift()**
 
-   Khái niệm: Phương thức `shift()`*` **loại bỏ phần tử đầu tiên** của mảng và **trả về phần tử bị loại bỏ**. Phương thức này thay đổi độ dài của mảng.
+   Khái niệm: Phương thức `shift()` **loại bỏ phần tử đầu tiên** của mảng và **trả về phần tử bị loại bỏ**. Phương thức này thay đổi độ dài của mảng.
 
    Ví dụ:
    ````
@@ -447,3 +447,20 @@
    let numbers = [4, 2, 3, 1];
    numbers.sort();
    console.log(numbers); // Kết quả: [1, 2, 3, 4]
+10. **pop()**
+
+    Khái niệm: Phương thức `pop()` **Xóa và trả về phần tử cuối cùng** của mảng, làm thay đổi mảng gốc.
+    Ví dụ:
+    ````
+    let arr = [1, 2, 3];
+    let last = arr.pop(); // arr = [1, 2], last = 3
+    console.log(arr); // [1, 2]
+    console.log(last); // 3
+11. **unshift()**
+
+    Khái niệm: Phương thức `unshift()` **Thêm một hoặc nhiều phần tử vào đầu mảng**, trả về độ dài mới của mảng, làm thay đổi mảng gốc.
+    Ví dụ:
+    ````
+    let arr = [1, 2, 3];
+    arr.unshift(0); // arr = [0, 1, 2, 3]
+    console.log(arr); // [0, 1, 2, 3]
