@@ -1,7 +1,5 @@
 # DOM
 
-**Document Object Model** là interface giúp tương tác với các element thông qua ngôn ngữ lập trình như JavaScript.
-
 ## Cấu trúc của một element:
 
 `<option value="usa">United States</option>`
@@ -107,8 +105,8 @@ Thẻ tự đóng:
   - Chọn một option theo label:`await page.locator("//select[@id='country']").selectOption({ label: "Canada" });`
 - Upload file: `await page.locator("//input[@id='profile']").setInputFiles("<path của file muốn upload>");});`
 - Hover: `await page.locator("<xpath here>").hover();`
-- Text: `//div[text()=’This is a text’]`
-- Contains: `//div[contains(text(), ‘Tôi là Alex’)]`
+- Text: `//div[text()='This is a text']`
+- Contains: `//div[contains(text(), 'Tôi là Alex')]`
 - Confirmation dialog: 
   ```
      page.on('dialog', dialog => dialog.accept());
