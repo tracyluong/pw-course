@@ -30,6 +30,12 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    /* Hiện trình duyệt ra (headful mode) */
+    headless: false, // hiện trình duyệt
+    viewport: { width: 1280, height: 720 },
+    launchOptions: {
+      slowMo: 500, // tùy chọn: chạy chậm để dễ quan sát
+    }, 
   },
 
   /* Configure projects for major browsers */
